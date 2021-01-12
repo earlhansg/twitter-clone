@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+import {
+  faHome, faHashtag, faBell, faBookmark, faEnvelope,
+  faList, faUser, faEllipsisH, faKiwiBird
+} from '@fortawesome/free-solid-svg-icons';
+
+
 @Component({
   selector: 'app-side-bar',
   templateUrl: 'side-bar.component.html',
@@ -7,6 +13,18 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class SideBarComponent implements OnInit {
+
+  faKiwiBird = faKiwiBird;
+  faHome = faHome;
+  faHashtag = faHashtag;
+  faBell = faBell;
+  faEnvelope = faEnvelope;
+  faBookmark = faBookmark;
+  faList = faList;
+  faUser = faUser;
+  faEllipsisH = faEllipsisH;
+
+
   constructor() { }
 
   ngOnInit() { }
