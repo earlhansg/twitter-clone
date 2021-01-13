@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import {
   faHome, faHashtag, faBell, faBookmark, faEnvelope,
-  faList, faUser, faEllipsisH, faKiwiBird
+  faList, faUser, faEllipsisH, faKiwiBird, faPencilAlt
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -23,6 +23,7 @@ export class SideBarComponent implements OnInit {
   faList = faList;
   faUser = faUser;
   faEllipsisH = faEllipsisH;
+  faPencilAlt = faPencilAlt;
 
 
   constructor() { }
