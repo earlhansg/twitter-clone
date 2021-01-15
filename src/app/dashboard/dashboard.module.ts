@@ -5,6 +5,7 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { SharedModule } from '../shared/shared.module';
 
 import { HomeComponent } from './containers/home/home.component';
+import { PostFormComponent } from './components/post-form/post-form.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,10 @@ import { HomeComponent } from './containers/home/home.component';
     SharedModule
   ],
   exports: [],
-  declarations: [HomeComponent],
+  declarations: [
+    HomeComponent,
+    PostFormComponent
+  ],
   providers: [],
 })
 export class DashboardModule { }

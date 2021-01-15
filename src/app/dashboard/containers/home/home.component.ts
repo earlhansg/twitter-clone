@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { faStar, faImage, faCalendar, faSmile, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-home',
@@ -11,11 +12,6 @@ import { faStar, faImage, faCalendar, faSmile, faFile } from '@fortawesome/free-
 export class HomeComponent implements OnInit {
 
   faStar = faStar;
-  faImage = faImage;
-  faCalendar = faCalendar;
-  faSmile = faSmile;
-  faFile = faFile;
-
 
   constructor() { }
 

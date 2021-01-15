@@ -8,37 +8,5 @@
     </span>
   </div>
   <!-- end of .home  -->
-  <div class="post border-top border-bottom pr-3 pl-3">
-    <div class="post-content d-flex mt-2">
-      <img src="//placehold.it/300" alt="" height="60px" class="rounded-circle">
-      <div class="flex-grow-1 mt-2 ml-2">
-        <textarea class="z-depth-1" id="exampleFormControlTextarea6" rows="3"
-          placeholder="What's happening?"></textarea>
-      </div>
-    </div>
-    <!-- end of .post-content  -->
-    <div class="event d-flex">
-      <div class="event-icon mr-auto d-flex justify-content-center align-items-center">
-        <span>
-          <fa-icon [icon]="faImage" size="md"></fa-icon>
-        </span>
-        <span>
-          <fa-icon [icon]="faCalendar" size="md"></fa-icon>
-        </span>
-        <span>
-          <fa-icon [icon]="faSmile" size="md"></fa-icon>
-        </span>
-        <span>
-          <fa-icon [icon]="faFile" size="md"></fa-icon>
-        </span>
-      </div>
-      <!-- end of .event-icon  -->
-      <div class="event-btn mb-2">
-        <button class="btn btn-info">Tweet</button>
-      </div>
-      <!-- end of .event-btn -->
-    </div>
-    <!-- end of .event  -->
-  </div>
-  <!-- end of .post -->
+  <app-post-form></app-post-form>
 </div>
