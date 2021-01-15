@@ -11,7 +11,10 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     CommonModule,
     FontAwesomeModule
   ],
-  exports: [SideBarComponent],
+  exports: [
+    SideBarComponent,
+    FontAwesomeModule
+  ],
   declarations: [SideBarComponent],
   providers: [],
 })
