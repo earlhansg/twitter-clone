@@ -1,0 +1,15 @@
+
+.post {
+
+  &-list {
+    &__info {
+      div:first-of-type {
+        // background-color: red;
+        // width: 100%;
+        span:nth-child(2){
+          color: gray;
+        }
+      }
+    }
+  }
+}

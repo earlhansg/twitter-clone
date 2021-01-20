@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { HomeComponent } from './containers/home/home.component';
 import { PostFormComponent } from './components/post-form/post-form.component';
+import { PostListComponent } from './components/post-list/post-list.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { PostFormComponent } from './components/post-form/post-form.component';
   exports: [],
   declarations: [
     HomeComponent,
-    PostFormComponent
+    PostFormComponent,
+    PostListComponent
   ],
   providers: [],
 })
