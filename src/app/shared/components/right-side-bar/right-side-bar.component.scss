@@ -1,0 +1,33 @@
+@import 'src/styles';
+
+.trend {
+  &-container {
+    width: 80%;
+    border-radius: 15px;
+
+    &__header {
+      span {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0.2rem 0.5rem;
+        margin: 0 0.5rem;
+        border-radius: 25px;
+        font-weight: 600;
+        color: $skyBlue-200;
+        transition: all 0.3s;
+
+        &:hover, &:active, &:visited {
+          background-color: $skyBlue-100;
+        }
+      }
+    }
+
+    &__list {
+      div:first-of-type > span:not(:nth-child(2)) {
+        color: gray;
+        font-size: 0.9rem;
+      }
+    }
+
+  }
+}
