@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsisH, faComment, faRetweet, faHeart, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-post-list',
@@ -11,6 +11,10 @@ import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 export class PostListComponent implements OnInit {
 
   faEllipsisH = faEllipsisH;
+  faComment = faComment;
+  faRetweet = faRetweet;
+  faHeart = faHeart;
+  faArrowCircleUp = faArrowCircleUp;
 
 
   constructor() { }

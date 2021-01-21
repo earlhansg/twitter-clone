@@ -1,5 +1,5 @@
 <div class="post mt-2 border-top p-2">
-  <div class="post-list">
+  <div class="post-list mt-1">
     <img src="//placehold.it/300" alt="" height="60px" class="rounded-circle float-left ml-2">
     <div class="post-list__info d-flex flex-column">
       <div class="d-flex ml-2">
@@ -13,11 +13,22 @@
         <span>Be the change that you wish to see in the world</span>
       </div>
     </div>
-    <!-- <div class="post-list__tweet">
-      <span>Be the change that you wish to see in the world</span>
-    </div> -->
-    <div class="post-list__icon">
-      icon
+    <!-- end of .post-list__info  -->
+    <div class="post-list__icon d-flex justify-content-around mt-2">
+      <span>
+        <fa-icon [icon]="faComment" size="md" class="text-secondary"></fa-icon>
+      </span>
+      <span>
+        <fa-icon [icon]="faRetweet" size="md" class="text-secondary"></fa-icon>
+      </span>
+      <span>
+        <fa-icon [icon]="faHeart" size="md" class="text-secondary"></fa-icon>
+      </span>
+      <span>
+        <fa-icon [icon]="faArrowCircleUp" size="md" class="text-secondary"></fa-icon>
+      </span>
     </div>
+    <!-- end of .post-list__icon  -->
   </div>
+  <!-- end of .post-list  -->
 </div>

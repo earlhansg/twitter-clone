@@ -1,15 +1,33 @@
+@import 'src/styles';
 
 .post {
 
   &-list {
+
     &__info {
       div:first-of-type {
-        // background-color: red;
-        // width: 100%;
         span:nth-child(2){
           color: gray;
         }
       }
     }
+
+    &__icon {
+      span {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0.2rem 0.5rem;
+        margin: 0 0.5rem;
+        border-radius: 25px;
+        font-weight: 600;
+        color: $skyBlue-200;
+        transition: all 0.3s;
+
+        &:hover, &:active, &:visited {
+          background-color: $skyBlue-100;
+        }
+      }
+    }
+    
   }
 }
